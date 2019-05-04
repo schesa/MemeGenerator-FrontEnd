@@ -1,0 +1,8 @@
+<button mat-raised-button routerLink="/generate" (click)='generateMeme()' color="primary">Generate Meme</button>
+<button mat-raised-button routerLink="/" color="accent">Back</button>
+
+<div class="overlay-image">
+    <img [src]="meme?.img" alt="Generated Meme">
+    <div class="text top">{{meme?.top}}</div>
+    <div class="text bottom">{{meme?.bottom}}</div>
+</div>

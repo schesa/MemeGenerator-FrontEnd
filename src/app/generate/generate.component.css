@@ -1,0 +1,61 @@
+/*!*img {*!*/
+  /*!*margin-top:30%;*!*/
+  /*!*width: 70%;*!*/
+  /*!*height: auto;*!*/
+  /*!*margin-left: auto;*!*/
+  /*!*margin-right: auto;*!*/
+  /*!*display: block;*!*/
+/*!*}*!*/
+
+/*.top-left {*/
+  /*position: absolute;*/
+  /*top: 8px;*/
+  /*left: 16px;*/
+/*}*/
+
+/*.img-container {*/
+  /*margin-top:30%;*/
+  /*width: 100%;*/
+  /*height: auto;*/
+  /*margin-left: auto;*/
+  /*margin-right: auto;*/
+  /*display: block;*/
+  /*background-image: url("../../assets/meme-templates/1.jpg");*/
+/*}*/
+
+.overlay-image {
+  margin-top:30%;
+  position: relative;
+  width: 90%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+/* Original image */
+.overlay-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+/* Original text overlay */
+.overlay-image .text {
+  color: #fff;
+  font-size: 30px;
+  line-height: 1.5em;
+  text-shadow: 2px 2px 2px #000;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+.overlay-image .top {
+  top:5%;
+}
+
+.overlay-image .bottom{
+  top:95%;
+}
+
